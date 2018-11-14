@@ -1,0 +1,10 @@
+version: "3.2"
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+    - 8090:8090
+    volumes:
+    - ./backend/app:/server/app
+    command: php ./artisan serve --port=8090 --host=0.0.0.0
