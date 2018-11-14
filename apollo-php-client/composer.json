@@ -1,0 +1,20 @@
+{
+  "name": "zhaojunlike/apollo-php-client",
+  "description": "apollo client for php, forked from multilinguals/apollo-php-client",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "Apollo",
+    "Client"
+  ],
+  "homepage": "https://github.com/zhaojunlike/apollo-php-client/",
+  "require": {
+    "php": "~7.0",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "godtoy\\apollo\\": "src/"
+    }
+  }
+}

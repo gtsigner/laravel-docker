@@ -18,7 +18,7 @@ RUN curl -sSL -o /usr/bin/phpunit https://phar.phpunit.de/phpunit.phar && chmod 
 
 ## install composer
 
-COPY ./app /server/app
+COPY ./ /server/app
 WORKDIR /server/app
 
 #开发模式
